@@ -1,0 +1,10 @@
+well-driver
+===========
+
+Development repository for a driver for the Wellspring touchpad mouse
+for FreeBSD.  This repository exists to support development and
+testing of the driver prior to its inclusion into the main FreeBSD
+repository.
+
+At present, I'm getting USB DMA errors on attach.  I'm using the
+existing Linux driver to figure out the device's protocol.
